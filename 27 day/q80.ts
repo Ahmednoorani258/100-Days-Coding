@@ -2,13 +2,17 @@
 
 // Explain & TIP: You can add new properties to an object or change existing ones after the object is created. This flexibility allows objects to be dynamically updated as needed.
 
-let car = {
+let car:any = {
     make: "Toyota",
     model: "Corolla",
     year: 2020
 };
 
 // car.color = "red";
+// to add more keyword//
+// details['class'] = "12"
+
+car['color']= "red";
 car.year = 2022;
 
 console.log(car);
