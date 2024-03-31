@@ -8,5 +8,5 @@ function divandremiainder(a, b):{ quotient; remainder } {
     let remainder = a % b;
     return { quotient, remainder };
 }
-console.log(divandremiainder(10, 3)); 
-console.log(divandremiainder(50,6));
+console.log(divandremiainder(10, 3)); // 3 , 1
+console.log(divandremiainder(50,6)); // 8 , 2

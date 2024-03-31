@@ -31,3 +31,23 @@ console.log(square);
 console.log(circle);
 
 
+let rectangles:shapes = {
+    kind: "rectangle",
+    width: 20,
+    hieght: 15
+}
+
+
+type vehicls = {
+    kind: "car"|"bike"|"truck"|"rickshaw"
+    wheels?: number,
+    color?: string,
+    reversegear?: boolean,
+}
+
+let corolla:vehicls ={
+    kind: "car",
+    wheels: 4,
+    color: "white",
+    reversegear: true,
+}

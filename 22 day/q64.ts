@@ -6,19 +6,17 @@
 function combineStringAndNumber(text: string, number: number): string {
     return text + number;
 }
-console.log(combineStringAndNumber("Age: ", 30));
 
 
-function combinestrings(a?:any,b?:any,c?:any,d?:any){
+function combinestrings(a:any,b?:any,c?:any,d?:any){
     return a + b + c + d;
 }
-
-
-console.log(combinestrings("ahmed",10,true,"@"));
-console.log(combinestrings(10,true));//in this version i got errors so i build next version
 
 
 function combineStrings2(...args: any[]){
     return args.join('');
 }
 console.log(combineStrings2("a",10));
+console.log(combineStringAndNumber("Age: ", 30));
+console.log(combinestrings("ahmed",10,true,"@"));
+console.log(combinestrings(10,true));//in this version i got errors so i build next version

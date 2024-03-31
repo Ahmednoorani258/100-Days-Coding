@@ -15,4 +15,4 @@ function swapingvariables(a,b){
     
 }
 
-swapingvariables(5,10)
+swapingvariables(5,10)//10,5
