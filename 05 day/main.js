@@ -1,4 +1,6 @@
+"use strict";
 //Q13)Your Own Array: Think of your favorite mode of transportation, such as a motorcycle or a car, and make a list that stores several examples. Use your list to print a series of statements about these items, such as “I would like to own a Honda motorcycle.”
+Object.defineProperty(exports, "__esModule", { value: true });
 // let transportation:string[] = [ "car", "bus", "rikshaw" ];
 // console.log(transportation);
 // for(let ele of transportation){
@@ -17,13 +19,12 @@ var guests = ["Sir Okasha", "Sir Ameen Alam", "Arib"];
 // })
 //Q15)Changing Guest List: One of your guests can't make it to the dinner, so you need to send out a new set of invitations with a replacement guest.
 //guest didnot attend
-var notAttend = "Sir Ameen Alam";
+let notAttend = "Sir Ameen Alam";
 console.log(notAttend + " Not attend to dinner");
 //relpace guest
-var newGuest = "Sir zia khan";
+let newGuest = "Sir zia khan";
 guests[guests.indexOf(notAttend)] = newGuest;
 //updt invite
-for (var _i = 0, guests_1 = guests; _i < guests_1.length; _i++) {
-    var ele = guests_1[_i];
-    console.log("'dear ".concat(ele, " U r invited to paty'"));
+for (let ele of guests) {
+    console.log(`'dear ${ele} U r invited to paty'`);
 }
