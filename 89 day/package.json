@@ -1,0 +1,15 @@
+{
+  "name": "89-day",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "start": "next start",
+    "seed": "node -r dotenv/config ./scripts/seed.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
